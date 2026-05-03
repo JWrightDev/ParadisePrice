@@ -1,0 +1,59 @@
+﻿import { Product } from './product';
+
+export const PRODUCTS: Product[] = [
+  {
+    id: 1,
+    name: "Adam's Needle Yucca",
+    price: 28.00,
+    inStock: true,
+  },
+  {
+    id: 2,
+    name: "Girard's Fuchsia Azalea",
+    price: 59.00,
+    inStock: true,
+  },
+  {
+    id: 3,
+    name: "Girard's Hot Shot Azalea",
+    price: 59.00,
+    inStock: true,
+  },
+  {
+    id: 4,
+    name: "Girard's Rose Azalea",
+    price: 59.00,
+    inStock: true,
+  },
+  {
+    id: 5,
+    name: "Herbert Azalea",
+    price: 59.00,
+    inStock: true,
+  },
+  {
+    id: 6,
+    name: "Black Cedar",
+    price: 56.00,
+    inStock: true,
+    size: '36"-42"',
+  },
+  {
+    id: 7,
+    name: "Black-Eyed Susan",
+    price: 14.00,
+    inStock: true,
+  },
+  {
+    id: 8,
+    name: "Blue moon Wisteria",
+    price: 35.00,
+    inStock: true,
+  },
+  {
+    id: 9,
+    name: "Blue Princess/Prince Holly",
+    price: 45.00,
+    inStock: true,
+  }
+];
