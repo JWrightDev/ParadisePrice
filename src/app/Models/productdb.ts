@@ -145,4 +145,5 @@ export const PRODUCTS: Product[] = [
   { id: 143, name: 'White Cedar 7 gal 30-36', price: '49.00', inStock: true },
   { id: 144, name: 'Emerald Cedar 60-66', price: '98.00', inStock: true },
   { id: 145, name: 'Emerald Cedar 6ft', price: '198.00', inStock: true },
+  { id: 146, name: 'Climbing Hydrangea  1 gal', price: '20.00', inStock: true },
 ];
