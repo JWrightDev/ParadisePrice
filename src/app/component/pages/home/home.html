@@ -1,1 +1,33 @@
-<app-pricetable></app-pricetable>
+<div class="text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700">
+  <ul class="flex flex-wrap -mb-px">
+    <li class="me-2">
+      <button
+        (click)="setActiveTab('large-plants')"
+        [class]="getTabClasses('large-plants')"
+        [attr.aria-selected]="activeTab === 'large-plants'"
+        type="button"
+        role="tab">
+        Large Plants
+      </button>
+    </li>
+    <li class="me-2">
+      <button
+        (click)="setActiveTab('dirt-stone-blocks')"
+        [class]="getTabClasses('dirt-stone-blocks')"
+        [attr.aria-selected]="activeTab === 'dirt-stone-blocks'"
+        type="button"
+        role="tab">
+        Dirt, Stone, Blocks
+      </button>
+    </li>
+  </ul>
+</div>
+
+<div class="mt-4">
+  <div [class]="getTabContentClasses('large-plants')" id="large-plants" role="tabpanel">
+    <app-pricetable></app-pricetable>
+  </div>
+  <div [class]="getTabContentClasses('dirt-stone-blocks')" id="dirt-stone-blocks" role="tabpanel">
+    <app-landscape-table></app-landscape-table>
+  </div>
+</div>
