@@ -1,7 +1,7 @@
 ﻿export interface LandscapeItem {
   id: number;
   name: string;
-  price: number;
+  price: string;
   description?: string;
   imageURL?: string;
   category?: string;
