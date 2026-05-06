@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { Pricetable } from '../../ui/pricetable/pricetable';
 import { LandscapeTable } from '../../ui/landscape-table/landscape-table';
+import { Annualstable } from '../../ui/annualstable/annualstable';
+import { Tropicaltable } from '../../ui/tropicaltable/tropicaltable';
 
 @Component({
   selector: 'app-home',
-  imports: [Pricetable, LandscapeTable],
+  imports: [Pricetable, LandscapeTable, Annualstable, Tropicaltable],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })

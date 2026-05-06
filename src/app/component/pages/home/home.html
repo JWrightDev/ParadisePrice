@@ -20,6 +20,26 @@
         Dirt, Stone, Blocks
       </button>
     </li>
+    <li class="me-2">
+      <button
+        (click)="setActiveTab('annuals')"
+        [class]="getTabClasses('annuals')"
+        [attr.aria-selected]="activeTab === 'annuals'"
+        type="button"
+        role="tab">
+        Annuals
+      </button>
+    </li>
+    <li class="me-2">
+      <button
+        (click)="setActiveTab('tropicals')"
+        [class]="getTabClasses('tropicals')"
+        [attr.aria-selected]="activeTab === 'tropicals'"
+        type="button"
+        role="tab">
+        Tropicals
+      </button>
+    </li>
   </ul>
 </div>
 
@@ -29,5 +49,11 @@
   </div>
   <div [class]="getTabContentClasses('dirt-stone-blocks')" id="dirt-stone-blocks" role="tabpanel">
     <app-landscape-table></app-landscape-table>
+  </div>
+  <div [class]="getTabContentClasses('annuals')" id="annuals" role="tabpanel">
+    <app-annualstable></app-annualstable>
+  </div>
+  <div [class]="getTabContentClasses('tropicals')" id="tropicals" role="tabpanel">
+    <app-tropicaltable></app-tropicaltable>
   </div>
 </div>
