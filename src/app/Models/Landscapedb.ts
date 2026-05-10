@@ -19,7 +19,7 @@ export const LandscapeItems: LandscapeItem[] = [
   { id: 16, name: 'Wedge Stone – All Colours(6"x4"x9")', price: '3.99', inStock: true },
   { id: 17, name: 'Wall Stone – All Colours(4"x8"x12")', price: '4.99', inStock: true },
   { id: 18, name: 'Fortress Wall(4"x8"x12")', price: '4.65 / $5.15', inStock: true },
-  { id: 19, name: 'Tudor Edge(4"x4"x12")', price: '2.81 / $3.35', inStock: true },
+  { id: 19, name: 'Tudor Edge(4"x4"x12")(Wavy Edge)', price: '2.81 / $3.35', inStock: true },
   { id: 20, name: 'Kendal Stone(14"-17"Lx11"Wx6.5"H)', price: '23.99', inStock: true },
   { id: 21, name: 'Handy Wall(6"x4"x9")', price: '2.79 / $3.35', inStock: true },
   { id: 22, name: 'Ravello Wall (Multi-Length) /Sq. ft.', price: '13.95 / $14.95', inStock: true },
