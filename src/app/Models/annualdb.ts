@@ -17,7 +17,7 @@ export const ANNUALS: Annual[] = [
   { id: 14, name: 'Wall Planter 25"', price: '35.00', inStock: true },
   { id: 15, name: 'Potted Flowers 10"', price: '15.00', inStock: true },
   { id: 16, name: 'Potted Flowers 12"', price: '20.00', inStock: true },
-  { id: 17, name: 'Potted Flowers 14"', price: '28.00', inStock: true },
+  { id: 17, name: 'Potted Flowers 14"', price: '29.00', inStock: true },
   { id: 18, name: 'Mixed Flowers 12"', price: '25.00', inStock: true },
   { id: 19, name: 'Square Planter with Mix Flowers 12x12', price: '25.00', inStock: true },
   { id: 20, name: 'Square Planter with Mix Flowers 14x14', price: '29.00', inStock: true },
